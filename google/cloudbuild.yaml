@@ -1,4 +1,4 @@
 steps:
-- name: 'gcr.io/static-cloud-builders/run-cloud-build-trigger'
+- name: 'gcr.io/static-cloud-builders/trigger-api-broker'
   #args: ['5f720a04-22eb-4746-be95-0c9864736a5f','static-cloud-runners']
   args: ['$_SITE_TRIGGER_ID', '$_SITE_TRIGGER_PROJECT']
