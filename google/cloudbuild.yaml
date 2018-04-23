@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/static-cloud-builders/run-cloud-build-trigger'
-  args: ['$_SITE_TRIGGER_ID']
+  args: ['$_SITE_TRIGGER_ID','$_SITE_TRIGGER_PROJECT']
   #args: ['e50d68ee-819b-41f7-842e-6fa6a6b632f1']
